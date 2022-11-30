@@ -4,7 +4,7 @@ services:
 
   postgres:
     image: postgres:alpine
-    container_name: HibernateAppV3
+    container_name: HibernateManyToMany
     restart: always
     hostname: postgres
     ports:
